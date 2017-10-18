@@ -57,10 +57,33 @@
      <Compile Include="Assets\GameSparks\Editor\GameSparksRestWindow.cs" />
      <Compile Include="Assets\GameSparks\Editor\GameSparksSettingsEditor.cs" />
      <Compile Include="Assets\GameSparks\Editor\GameSparksUnityInspector.cs" />
+     <Compile Include="Assets\GooglePlayGames\Editor\GPGSAndroidSetupUI.cs" />
+     <Compile Include="Assets\GooglePlayGames\Editor\GPGSDocsUI.cs" />
+     <Compile Include="Assets\GooglePlayGames\Editor\GPGSIOSSetupUI.cs" />
+     <Compile Include="Assets\GooglePlayGames\Editor\GPGSPostBuild.cs" />
+     <Compile Include="Assets\GooglePlayGames\Editor\GPGSProjectSettings.cs" />
+     <Compile Include="Assets\GooglePlayGames\Editor\GPGSStrings.cs" />
+     <Compile Include="Assets\GooglePlayGames\Editor\GPGSUpgrader.cs" />
+     <Compile Include="Assets\GooglePlayGames\Editor\GPGSUtil.cs" />
+     <Compile Include="Assets\GooglePlayGames\Editor\NearbyConnectionUI.cs" />
+     <Compile Include="Assets\GooglePlayGames\Editor\PlistBuddyHelper.cs" />
+     <Compile Include="Assets\GooglePlayGames\Editor\xcode\Elements.cs" />
+     <Compile Include="Assets\GooglePlayGames\Editor\xcode\Lexer.cs" />
+     <Compile Include="Assets\GooglePlayGames\Editor\xcode\Objects.cs" />
+     <Compile Include="Assets\GooglePlayGames\Editor\xcode\Parser.cs" />
+     <Compile Include="Assets\GooglePlayGames\Editor\xcode\PBXProject.cs" />
+     <Compile Include="Assets\GooglePlayGames\Editor\xcode\Sections.cs" />
+     <Compile Include="Assets\GooglePlayGames\Editor\xcode\Serializer.cs" />
+     <Compile Include="Assets\GooglePlayGames\Editor\xcode\Utils.cs" />
      <None Include="Assets\GameSparks\Plugins\GameSparksRT.xml" />
      <None Include="Assets\GameSparks\Plugins\Metro\GameSparksRT.xml" />
+     <None Include="Assets\GooglePlayGames\Editor\template-GameInfo.txt" />
+     <None Include="Assets\GooglePlayGames\Editor\template-AndroidManifest.txt" />
      <None Include="Assets\GameSparks\README.txt" />
+     <None Include="Assets\GooglePlayGames\Editor\template-Constants.txt" />
+     <None Include="Assets\GooglePlayGames\Editor\GPGSDependencies.xml" />
      <None Include="Assets\GameSparks\link.xml" />
+     <None Include="Assets\PlayServicesResolver\Editor\play-services-resolver_v1.2.48.0.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/dev/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
@@ -138,6 +161,18 @@
  </Reference>
  <Reference Include="GameSparksRT">
  <HintPath>C:/dev/Unity/ivg/pdg/Pooping Dead/Assets/GameSparks/Plugins/GameSparksRT.dll</HintPath>
+ </Reference>
+ <Reference Include="Google.IOSResolver_v1.2.48.0">
+ <HintPath>C:/dev/Unity/ivg/pdg/Pooping Dead/Assets/PlayServicesResolver/Editor/Google.IOSResolver_v1.2.48.0.dll</HintPath>
+ </Reference>
+ <Reference Include="Google.JarResolver_v1.2.48.0">
+ <HintPath>C:/dev/Unity/ivg/pdg/Pooping Dead/Assets/PlayServicesResolver/Editor/Google.JarResolver_v1.2.48.0.dll</HintPath>
+ </Reference>
+ <Reference Include="Google.VersionHandler">
+ <HintPath>C:/dev/Unity/ivg/pdg/Pooping Dead/Assets/PlayServicesResolver/Editor/Google.VersionHandler.dll</HintPath>
+ </Reference>
+ <Reference Include="Google.VersionHandlerImpl_v1.2.48.0">
+ <HintPath>C:/dev/Unity/ivg/pdg/Pooping Dead/Assets/PlayServicesResolver/Editor/Google.VersionHandlerImpl_v1.2.48.0.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>C:/Users/aharris/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.ads@1.0.7/Editor/UnityEditor.Advertisements.dll</HintPath>
