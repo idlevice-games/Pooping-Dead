@@ -338,6 +338,11 @@ Prefab:
       value: 
       objectReference: {fileID: 1164359414431880, guid: bed92ce6e50e74d46939d38bd2e047a1,
         type: 2}
+    - target: {fileID: 11400002, guid: dbda2ebfe2644284192c36b92595e6a1, type: 2}
+      propertyPath: Deck
+      value: 
+      objectReference: {fileID: 1908615735328622, guid: f5038f68fac2ddf459649d206e0af5dc,
+        type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: dbda2ebfe2644284192c36b92595e6a1, type: 2}
   m_IsPrefabParent: 0
