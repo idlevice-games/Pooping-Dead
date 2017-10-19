@@ -21,7 +21,7 @@ public class Clickspawn : MonoBehaviour {
 
             if (childCount == 0)
             {
-                GameObject brick = Instantiate(Brick, Camera.main.ScreenToWorldPoint(Input.mousePosition + new Vector3(0, 0, 10)), Brick.transform.rotation) as GameObject;
+                GameObject brick = Instantiate(Brick, Camera.main.ScreenToWorldPoint(Input.mousePosition + new Vector3(0, 0, 9.5f)), Brick.transform.rotation) as GameObject;
                 childCount++;
                 brick.name = "HullComponent(" + childCount + ")";
                 //brick.GetComponent<Rigidbody2D>().mass = brick.transform.localScale.x * brick.transform.localScale.y * 5f;
@@ -95,12 +95,12 @@ public class Clickspawn : MonoBehaviour {
         }
         if (Input.GetMouseButtonDown(1))
         {
-                GameObject deck = Instantiate(Deck, Camera.main.ScreenToWorldPoint(Input.mousePosition + new Vector3(0, 0, 10)), Brick.transform.rotation) as GameObject;
+                GameObject deck = Instantiate(Deck, Camera.main.ScreenToWorldPoint(Input.mousePosition + new Vector3(0, 0, 4)), Brick.transform.rotation) as GameObject;
 
                 deck.transform.Rotate(0, 0, UnityEngine.Random.Range(0, 0));
                 
-                deck.transform.localScale = new Vector3(UnityEngine.Random.Range(1f, 2f), 0.6f, 1) * 0.4f;             
-                deck.GetComponent<Rigidbody2D>().mass = 3.1f;
+                deck.transform.localScale = new Vector3(UnityEngine.Random.Range(0.1f, 1.0f), UnityEngine.Random.Range(0.2f, 0.8f), 1) * 0.4f;             
+                deck.GetComponent<Rigidbody2D>().mass = 3.1f * UnityEngine.Random.Range(0.1f, 1.0f);
 
         }
         
